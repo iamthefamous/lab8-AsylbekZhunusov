@@ -6,16 +6,16 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication implements CommandLineRunner {
+public class Ex2DemoApplication implements CommandLineRunner {
 
     private final OrderService orderService;
 
-    public DemoApplication(OrderService orderService) {
+    public Ex2DemoApplication(OrderService orderService) {
         this.orderService = orderService;
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(Ex2DemoApplication.class, args);
     }
 
     @Override

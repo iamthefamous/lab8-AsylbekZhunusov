@@ -9,6 +9,10 @@ group = 'com.example'
 version = '0.0.1-SNAPSHOT'
 description = 'lab8week'
 
+springBoot {
+    mainClass = 'com.example.lab8week.Lab8weekApplication'
+}
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)

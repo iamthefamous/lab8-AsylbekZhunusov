@@ -1,4 +1,5 @@
-package com.example.lab8week.ex1.spring;// SmsMessageSender.java
+package com.example.lab8week.ex1.spring;
+
 import org.springframework.stereotype.Component;
 
 @Component

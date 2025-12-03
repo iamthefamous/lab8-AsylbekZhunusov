@@ -5,17 +5,17 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication implements CommandLineRunner {
+public class Ex1DemoApplication implements CommandLineRunner {
 
     private final NotificationService notificationService;  // NOT static
 
     // Constructor injection
-    public DemoApplication(NotificationService notificationService) {
+    public Ex1DemoApplication(NotificationService notificationService) {
         this.notificationService = notificationService;
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);  // static main is fine
+        SpringApplication.run(Ex1DemoApplication.class, args);  // static main is fine
     }
 
     // Instance method! Do NOT make static
